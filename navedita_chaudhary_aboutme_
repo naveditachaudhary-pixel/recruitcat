@@ -1,0 +1,109 @@
+<head>
+  <meta charset="utf-8" />
+  <title>About Me — Navedita Chaudhary</title>
+  <body>
+   <h1>Navedita Chaudhary</h1>
+  <h2>Master of Science in Information Systems, MSIS</h2>
+  <p><b>University </b> Carl H. Lindner College of Business, University of Cincinnati</p>
+
+  <hr>
+
+
+  <h3>Profile</h3>
+  <figure>
+    <img src="Pic_Navedita.jpg" alt="Navedita Chaudhary" width="200">
+    <figcaption>motivated and result-oriented individual with a strong background in leadership, problem solving, and 
+customer support. I have a proven track record of launching and scaling new products with a focus on efficiency and 
+process improvement.</figcaption>
+  </figure>
+
+  <hr>
+
+  <h3>Why I Chose This Program</h3>
+  <p>
+    I chose the MSIS program at Carl H. Lindner College of Business to deepen my technical and analytical skills while gaining a strong foundation in information systems. With two years of experience as a Data Analyst at <b>Google Cloud Marketing</b>, I have developed expertise in data-driven decision-making and insights generation. Additionally, my two years in marketing have given me a practical understanding of business strategy and customer behavior. The MSIS program offers the perfect combination of technical knowledge and business acumen, enabling me to bridge the gap between data analysis and strategic decision-making. I am confident this program will equip me with the skills to drive impactful solutions in the technology and business space.
+  </p>
+
+  <hr>
+
+
+  <h3>Class Schedule</h3>
+  <table>
+    <tr>
+      <th>Day</th>
+      <th>Courses</th>
+      <th>Time</th>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td>Statistical Computing</td>
+      <td>6:00 PM – 9:50 PM</td>
+    </tr>
+    <tr>
+      <td>Tuesday / Thursday</td>
+      <td>Data Wrangling (R)</td>
+      <td>3:30 PM – 5:20 PM</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td> AI for Business</td>
+      <td>9:30 AM – 1:15 PM</td>
+    </tr>
+    <tr>
+      <td>Saturday</td>
+      <td>Data Visualization(.Net, HTML)</td>
+      <td>9:00 AM – 12:50 PM</td>
+    </tr>
+  </table>
+
+  <hr>
+
+
+  <h3>Career Objectives</h3>
+  <p>
+    I am looking to build my career in data analysis, business analytics, and marketing analytics. With experience at Google Cloud Marketing, I aim to work as a Data Analyst, Business Analyst, or Marketing Analyst. My goal is to use data-driven insights to support business decisions and optimize marketing strategies. I am passionate about combining analytics and technology to drive growth and efficiency.
+  </p>
+
+  <ul>
+    <li>Customer Engineer </li>
+    <li>Health Data Analyst</li>
+    <li>Business Intelligence (BI) Analyst</li>
+    <li>Business Analytics Manager</li>
+  </ul>
+
+  <hr>
+
+ 
+  <h3>Strengths</h3>
+  <ul>
+    <li>killed in analyzing complex datasets and generating actionable insights, with hands-on experience at Google Cloud Marketing</li>
+    <li>trong understanding of marketing strategies and consumer behavior, gained from 2 years of marketing experience.</li>
+    <li>Proficient in tools like SQL, R, Python, and Excel for data manipulation, visualization, and reporting.</li>
+    
+    <li>Proficient in tools like SQL, R, Python, and Excel for data manipulation, visualization, and reporting.</li>
+    <li>Ability to translate data into business solutions and support strategic decision-making.</li>
+    <li>Quick to learn new technologies, tools, and business domains, demonstrated by upskilling through courses like LinkedIn Learning</li>
+  </ul>
+
+  <hr>
+
+
+  <h3>Hobbies and Interests</h3>
+
+  <h4>Reading/Literature</h4>
+  <p>I have a deep love for reading and writing poetry, which fuels my creativity and imagination. I am fascinated by literature and enjoy exploring different styles, themes, and expressions. Writing allows me to articulate thoughts meaningfully, while reading broadens my perspective and understanding of the world. <a href="https://www.poetryfoundation.org/">Poetry's</a></p>
+  <img src="poetry_image.jpeg" alt="Poetry's" width="158">
+
+  <h4>Traveling and Adventure Activities</h4>
+  <p>I have a strong passion for traveling and exploring new cultures, though I haven’t had much time to do so yet. Visiting Italy is on my travel bucket list, as I am eager to experience its rich history, art, and cuisine.
+  I am not much of an adventurer but I enjoy trying new experiences, even if I’m not naturally drawn to adventures. Stepping out of my comfort zone allows me to explore, learn, and gain unique experiences, making each activity memorable.</p>
+  <p>Read about adventure destinations at <a href="https://vidalingua.com/blog/top-travel-blogs-for-italy">Travel Italy </a></p>
+  <img src="Italy_Des.webp" alt="Wishlist" width="150">
+
+  <h4>Reading</h4>
+  <p>I have a deep passion for reading and writing poetry, which allows me to explore emotions and ideas creatively. I am especially inspired by the works of Rumi and Rabindranath Tagore, whose poetry combines profound wisdom with lyrical beauty. Their writings have greatly influenced my appreciation for literature and my own creative expression. Reading poetry helps me reflect, imagine, and connect with diverse perspectives.The Alchemist is one of my fav Books </p>
+  <p>Explore books <a href="https://icrrd.com/public/media/15-05-2021-084550The-Alchemist-Paulo-Coelho.pdf">The Alchemist </a></p>
+  <img src="reading_img.avif"s" alt="Reading image" width="140">
+
+</body>
+</html>
