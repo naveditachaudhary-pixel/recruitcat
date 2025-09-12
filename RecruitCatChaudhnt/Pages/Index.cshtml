@@ -1,0 +1,115 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="container py-5">
+    <!-- Hero Section -->
+    <div class="row align-items-center mb-5">
+        <div class="col-md-6">
+            <h1 class="display-4 fw-bold text-primary">RecruitCatChaudhnt</h1>
+            <p class="lead">Connecting top talent with leading companies across industries. Your career starts here!</p>
+            <a class="btn btn-lg btn-success" asp-page="/OurTeam">Meet Our Team</a>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="~/images/Rec_p.png" alt="Recruitment team" class="img-fluid rounded shadow">
+        </div>
+    </div>
+
+    <!-- Company Info -->
+    <div class="row mb-5 text-center">
+        <div class="col-md-4">
+            <h3>📍 Address</h3>
+            <p>123 Main Street<br />Cincinnati, OH 45202</p>
+        </div>
+        <div class="col-md-4">
+            <h3>📞 Phone</h3>
+            <p>(123) 456-7890</p>
+        </div>
+        <div class="col-md-4">
+            <h3>📧 Email</h3>
+            <p>info@recruitcat.com</p>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div class="mb-5">
+        <h2 class="fw-bold text-center mb-4">Our Services</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Executive Recruitment</h5>
+                        <p>Helping companies hire leadership talent that drives results.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Contract Staffing</h5>
+                        <p>Flexible short-term staffing solutions for fast-moving projects.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Talent Consulting</h5>
+                        <p>Guiding businesses with data-driven hiring strategies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Industries -->
+    <div class="mb-5">
+        <h2 class="fw-bold text-center mb-4">Industries We Specialize In</h2>
+        <div class="row text-center g-4">
+            <div class="col-md-3">
+                <img src="~/images/technology_p.webp" alt="Technology" class="img-fluid mb-2" style="height:100px;">
+                <p>Technology</p>
+            </div>
+            <div class="col-md-3">
+                <img src="~/images/healthcare_p.jpg" alt="Healthcare" class="img-fluid mb-2" style="height:100px;">
+                <p>Healthcare</p>
+            </div>
+            <div class="col-md-3">
+                <img src="~/images/finance_p.jpg" alt="Finance" class="img-fluid mb-2" style="height:100px;">
+                <p>Finance</p>
+            </div>
+            <div class="col-md-3">
+                <img src="~/images/manufacturing_p.webp" alt="Manufacturing" class="img-fluid mb-2" style="height:100px;">
+                <p>Manufacturing</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="mb-5">
+        <h2 class="fw-bold text-center mb-4">What Our Clients Say</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <blockquote class="blockquote bg-light p-3 rounded shadow-sm">
+                    <p>"RecruitCat helped us find the perfect candidate within weeks. Professional and efficient!"</p>
+                    <footer class="blockquote-footer">Sarah M., HR Manager</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-6">
+                <blockquote class="blockquote bg-light p-3 rounded shadow-sm">
+                    <p>"Their recruitment process is smooth and stress-free. Highly recommend RecruitCat!"</p>
+                    <footer class="blockquote-footer">James L., CEO</footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+    <!-- Application Process -->
+    <div class="text-center mb-5">
+        <h2 class="fw-bold">Start Your Application Today</h2>
+        <p>Our easy web-based application process helps you apply to top positions in just a few clicks.</p>
+        <a href="#" class="btn btn-lg btn-primary">Apply Now</a>
+    </div>
+</div>
