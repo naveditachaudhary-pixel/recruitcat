@@ -1,0 +1,52 @@
+﻿@page
+@model RecruitCatChaudhnt.Pages.companys.DetailsModel
+
+@{
+    ViewData["Title"] = "Company Details";
+}
+
+<h1>Company Details</h1>
+
+<div>
+    <h4>Company</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Company.Name)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Company.Name)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Company.PositionName)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Company.PositionName)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Company.MinSalary)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Company.MinSalary)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Company.MaxSalary)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Company.MaxSalary)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Company.StartDate)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Company.StartDate)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Company.Location)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Company.Location)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Company.NumEmployees)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Company.NumEmployees)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Company.Revenue)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Company.Revenue)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Company.IsRemoteFriendly)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Company.IsRemoteFriendly)</dd>
+
+        <dt class="col-sm-2">Industry</dt>
+        <dd class="col-sm-10">@Model.Company.Industry?.Name</dd>
+
+        <dt class="col-sm-2">Job Title</dt>
+        <dd class="col-sm-10">@Model.Company.JobTitle?.Title</dd>
+    </dl>
+</div>
+
+<div>
+    <a class="btn btn-warning" asp-page="./Edit" asp-route-id="@Model.Company.CompanyId">Edit</a> |
+    <a class="btn btn-secondary" asp-page="./Index">Back to List</a>
+</div>

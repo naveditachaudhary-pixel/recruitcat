@@ -1,0 +1,141 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RecruitCatChaudhnt
+build_property.RootNamespace = RecruitCatChaudhnt
+build_property.ProjectDir = C:\Users\mrina\source\repos\IS7012HW\RecruitCatChaudhnt\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\mrina\source\repos\IS7012HW\RecruitCatChaudhnt
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/candidates/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2FuZGlkYXRlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/candidates/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2FuZGlkYXRlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/candidates/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2FuZGlkYXRlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/candidates/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2FuZGlkYXRlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/candidates/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2FuZGlkYXRlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/companys/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcGFueXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/companys/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcGFueXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/companys/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcGFueXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/companys/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcGFueXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/companys/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcGFueXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/industrys/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5kdXN0cnlzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/industrys/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5kdXN0cnlzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/industrys/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5kdXN0cnlzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/industrys/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5kdXN0cnlzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/industrys/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5kdXN0cnlzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/jobtitles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcam9idGl0bGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/jobtitles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcam9idGl0bGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/jobtitles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcam9idGl0bGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/jobtitles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcam9idGl0bGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/jobtitles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcam9idGl0bGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/OurTeam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3VyVGVhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrina/source/repos/IS7012HW/RecruitCatChaudhnt/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-m3k2rf1etl
