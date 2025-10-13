@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RecruitCatChaudhnt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d50f60f39a7fca3301d9b41b38ac62bc49c5e77f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54f29a5fa2796783629bb9c9c49971be62c7d29c")]
 [assembly: System.Reflection.AssemblyProductAttribute("RecruitCatChaudhnt")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RecruitCatChaudhnt")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

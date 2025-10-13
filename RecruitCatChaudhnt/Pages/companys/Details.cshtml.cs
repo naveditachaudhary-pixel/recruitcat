@@ -11,9 +11,9 @@ namespace RecruitCatChaudhnt.Pages.companys
 {
     public class DetailsModel : PageModel
     {
-        private readonly RecruitCatChaudhnt.Models.RecruitCatChaudhntContext _context;
+        private readonly RecruitCatChaudhntContext _context;
 
-        public DetailsModel(RecruitCatChaudhnt.Models.RecruitCatChaudhntContext context)
+        public DetailsModel(RecruitCatChaudhntContext context)
         {
             _context = context;
         }
@@ -27,15 +27,17 @@ namespace RecruitCatChaudhnt.Pages.companys
                 return NotFound();
             }
 
-            var company = await _context.Companies.FirstOrDefaultAsync(m => m.CompanyId == id);
-            if (company == null)
+            Company = await _context.Companies
+                .Include(c => c.Industry)      // ✅ include related industry
+                .Include(c => c.JobTitle)      // ✅ include job title
+                .Include(c => c.Candidates)    // ✅ include list of candidates
+                .FirstOrDefaultAsync(m => m.CompanyId == id);
+
+            if (Company == null)
             {
                 return NotFound();
             }
-            else
-            {
-                Company = company;
-            }
+
             return Page();
         }
     }

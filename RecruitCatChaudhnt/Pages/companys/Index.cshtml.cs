@@ -11,20 +11,22 @@ namespace RecruitCatChaudhnt.Pages.companys
 {
     public class IndexModel : PageModel
     {
-        private readonly RecruitCatChaudhnt.Models.RecruitCatChaudhntContext _context;
+        private readonly RecruitCatChaudhntContext _context;
 
-        public IndexModel(RecruitCatChaudhnt.Models.RecruitCatChaudhntContext context)
+        public IndexModel(RecruitCatChaudhntContext context)
         {
             _context = context;
         }
 
-        public IList<Company> Company { get;set; } = default!;
+        public IList<Company> Company { get; set; } = default!;
 
         public async Task OnGetAsync()
         {
             Company = await _context.Companies
-                .Include(c => c.Industry)
-                .Include(c => c.JobTitle).ToListAsync();
+                .Include(c => c.Industry)  // ✅ Loads related industry name
+                .Include(c => c.JobTitle)  // ✅ Loads related job title
+                .OrderBy(c => c.Name)      // 🧹 Optional: makes list sorted alphabetically
+                .ToListAsync();
         }
     }
 }

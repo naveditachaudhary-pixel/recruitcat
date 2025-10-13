@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mrina\\source\\repos\\IS7012HW\\RecruitCatChaudhnt\\RecruitCatChaudhnt.csproj": {}
+    "C:\\Users\\mrina\\Source\\Repos\\IS7012HW\\RecruitCatChaudhnt\\RecruitCatChaudhnt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mrina\\source\\repos\\IS7012HW\\RecruitCatChaudhnt\\RecruitCatChaudhnt.csproj": {
+    "C:\\Users\\mrina\\Source\\Repos\\IS7012HW\\RecruitCatChaudhnt\\RecruitCatChaudhnt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mrina\\source\\repos\\IS7012HW\\RecruitCatChaudhnt\\RecruitCatChaudhnt.csproj",
+        "projectUniqueName": "C:\\Users\\mrina\\Source\\Repos\\IS7012HW\\RecruitCatChaudhnt\\RecruitCatChaudhnt.csproj",
         "projectName": "RecruitCatChaudhnt",
-        "projectPath": "C:\\Users\\mrina\\source\\repos\\IS7012HW\\RecruitCatChaudhnt\\RecruitCatChaudhnt.csproj",
+        "projectPath": "C:\\Users\\mrina\\Source\\Repos\\IS7012HW\\RecruitCatChaudhnt\\RecruitCatChaudhnt.csproj",
         "packagesPath": "C:\\Users\\mrina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mrina\\source\\repos\\IS7012HW\\RecruitCatChaudhnt\\obj\\",
+        "outputPath": "C:\\Users\\mrina\\Source\\Repos\\IS7012HW\\RecruitCatChaudhnt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

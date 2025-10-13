@@ -23,5 +23,9 @@ namespace RecruitCatChaudhnt.Models
 
         public int? JobTitleId { get; set; }
         public JobTitle? JobTitle { get; set; }
+
+        // ✅ NEW: Industry relationship
+        public int? IndustryId { get; set; }
+        public Industry? Industry { get; set; }
     }
 }

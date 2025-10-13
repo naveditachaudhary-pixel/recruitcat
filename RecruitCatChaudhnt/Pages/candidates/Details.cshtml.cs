@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -11,9 +9,9 @@ namespace RecruitCatChaudhnt.Pages.candidates
 {
     public class DetailsModel : PageModel
     {
-        private readonly RecruitCatChaudhnt.Models.RecruitCatChaudhntContext _context;
+        private readonly RecruitCatChaudhntContext _context;
 
-        public DetailsModel(RecruitCatChaudhnt.Models.RecruitCatChaudhntContext context)
+        public DetailsModel(RecruitCatChaudhntContext context)
         {
             _context = context;
         }
@@ -27,15 +25,17 @@ namespace RecruitCatChaudhnt.Pages.candidates
                 return NotFound();
             }
 
-            var candidate = await _context.Candidates.FirstOrDefaultAsync(m => m.CandidateId == id);
-            if (candidate == null)
+            Candidate = await _context.Candidates
+                .Include(c => c.Company)   // ✅ load related Company
+                .Include(c => c.JobTitle)  // ✅ load related Job Title
+                .Include(c => c.Industry)  // ✅ load related Industry (if applicable)
+                .FirstOrDefaultAsync(m => m.CandidateId == id);
+
+            if (Candidate == null)
             {
                 return NotFound();
             }
-            else
-            {
-                Candidate = candidate;
-            }
+
             return Page();
         }
     }

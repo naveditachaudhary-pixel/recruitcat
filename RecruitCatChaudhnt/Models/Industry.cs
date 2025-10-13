@@ -1,18 +1,31 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel;
 
 namespace RecruitCatChaudhnt.Models
 {
     public class Industry
     {
-        public int IndustryId { get; set; }  // PK
+        [Key]
+        public int IndustryId { get; set; } // Primary Key
 
-        public required string Name { get; set; }
+        // ---- Basic Info ----
+        [Required]
+        [StringLength(100)]
+        [Display(Name = "Industry Name")]
+        public string Name { get; set; } = string.Empty;
 
-        // Additional properties
-        public string? Description { get; set; }   // nullable string
-        public bool IsGrowing { get; set; }        // bool
+        // ---- Additional Info ----
+        [StringLength(500)]
+        [Display(Name = "Description / Summary")]
+        [DataType(DataType.MultilineText)]
+        public string? Description { get; set; } // nullable string
 
-        // Navigation
+        [Display(Name = "Growing Industry?")]
+        public bool IsGrowing { get; set; }
+
+        // ---- Relationships ----
+        [Display(Name = "Associated Companies")]
         public List<Company> Companies { get; set; } = new();
     }
 }
